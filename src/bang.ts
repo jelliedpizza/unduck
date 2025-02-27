@@ -3,6 +3,15 @@
 export const bangs = [
   {
     c: "AI",
+    d: "www.perplexity.ai",
+    r: 0,
+    s: "Perplexity",
+    sc: "AI",
+    t: "p",
+    u: "https://www.perplexity.ai/?s=o&q={{{s}}}",
+  },
+  {
+    c: "AI",
     d: "www.t3.chat",
     r: 0,
     s: "T3 Chat",
@@ -81629,15 +81638,6 @@ export const bangs = [
     u: "http://dictionary.pinpinchinese.com/search/t/{{{s}}}",
   },
   {
-    c: "Online Services",
-    d: "pinterest.com",
-    r: 235,
-    s: "Pinterest",
-    sc: "Social",
-    t: "pin",
-    u: "http://pinterest.com/search/pins/?q={{{s}}}",
-  },
-  {
     c: "Entertainment",
     d: "pinside.com",
     r: 0,
@@ -83756,7 +83756,7 @@ export const bangs = [
     r: 1254,
     s: "Pinterest",
     sc: "Images",
-    t: "p",
+    t: "pin",
     u: "https://www.pinterest.com/search/pins/?q={{{s}}}",
   },
   {
