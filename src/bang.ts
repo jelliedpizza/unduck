@@ -3,6 +3,15 @@
 export const bangs = [
   {
     c: "AI",
+    d: "https://huggingface.co/chat",
+    r: 0,
+    s: "Hugging Face Chat",
+    sc: "AI",
+    t: "hf",
+    u: "https://huggingface.co/chat/?q={{{s}}}",
+  },
+  {
+    c: "AI",
     d: "www.perplexity.ai",
     r: 0,
     s: "Perplexity",
